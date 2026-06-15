@@ -8,7 +8,7 @@ author:          Barnaba Piotrowski
 maintainer:      barnaba.piotrowski@gmail.com
 category:        Database
 build-type:      Simple
-extra-doc-files: CHANGELOG.md
+extra-doc-files: CHANGELOG.md design/storage-format.md design/reference-types.hs
 
 common warnings
     ghc-options: -Wall
@@ -28,3 +28,4 @@ test-suite convent-db-test
     build-depends:    base ^>=4.20.0.0
     default-language: Haskell2010
     ghc-options:      -Wall
+
